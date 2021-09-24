@@ -1,0 +1,238 @@
+/* подключение шрифта */
+/* &display=swap&subset=cyrillic-ext */
+
+/* обнуление */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ------------------------ */
+.page {
+	padding: 50px;
+	background-color: #000;
+	color: #fff;
+}
+
+.task {
+	border: 3px double #fff;
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	box-shadow: 5px 3px 14px 7px white;
+}
+
+.tasktitle {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0px 0px 20px 0px;
+}
+
+.taskonesubtitle {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0px 0px 20px 0px;
+}
+
+.taskcircle {
+	max-width: 200px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin: 0px auto 40px auto;
+}
+.tasktwosubtitle {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0px 0px 20px 0px;
+}
+.taskparagraph {
+	opacity: 0.5;
+	margin: 0px 0px 40px 0px;
+}
+
+.taskthreesubtitle {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0px 0px 20px 0px;
+}
+.taskspanbox {
+	margin: 0px 0px 40px 0px;
+}
+.taskspan {
+	border: 3px solid #fff;
+}
+
+.taskfoursubtitle {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0px 0px 20px 0px;
+}
+.taskborder {
+	max-width: 200px;
+	height: 200px;
+	border-top: 5px solid #fff;
+	border-right: 5px dashed #fff;
+	border-bottom: 5px double #fff;
+	border-left: 5px dotted #fff;
+	margin: 0px auto 40px auto;
+}
+
+.taskclasslink {
+}
+.taskfivesubtitle {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 0px 0px 20px 0px;
+}
+.tasklink {
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	box-shadow: 5px 3px 14px 8px white;
+}
+
+/* ---------------------- */
+
+.improvisation {
+	padding: 50px;
+	background-color: #fff;
+	color: #000;
+}
+
+.improvisationbox {
+	border: 3px double #000;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: inset 5px 3px 14px 7px #000;
+}
+.improvisationtitle {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 22px;
+	margin: 0px 0px 30px 0px;
+}
+
+.block1 {
+	outline: 3px solid #000;
+	max-width: 200px;
+}
+
+.block2 {
+	max-width: 200px;
+	height: 100px;
+	border-radius: 40% 60% 30% 70% / 50% 25% 75% 50%;
+	background-color: #000;
+}
+
+.block3 {
+	border: 5px double #000;
+	max-width: 200px;
+	margin: 0px 0px 0px auto;
+}
+
+.block4 {
+	max-width: 200px;
+	height: 150px;
+	border-radius: 50% 25% 75% 50% / 40% 60% 30% 70%;
+	background-color: #000;
+}
+
+.block5 {
+	opacity: 0.3;
+	outline: 5px dashed #000;
+	max-width: 200px;
+	margin: 0px auto 0px auto;
+}
+.block6 {
+	max-width: 200px;
+	height: 50px;
+	border-radius: 30% 45% 75% 10% / 40% 80% 30% 70%;
+	background-color: #000;
+}
+.block7 {
+	border: 5px dotted #000;
+	max-width: 200px;
+	margin: 0px 0px 0px 0px;
+}
+.block8 {
+	max-width: 200px;
+	height: 100px;
+	border-radius: 50% 25% 75% 50% / 40% 60% 30% 70%;
+	background-color: #000;
+}
+
+.block9 {
+	border: 5px dotted #000;
+	outline: 5px dotted #000;
+	max-width: 200px;
+	margin: 0px 0px 0px auto;
+}
+.block10 {
+	max-width: 200px;
+	height: 100px;
+	border-radius: 50% 25% 35% 50% / 10% 60% 20% 80%;
+	background-color: #000;
+}
+.block11 {
+	visibility: hidden;
+	border: 5px dotted #000;
+	outline: 5px dotted #000;
+	max-width: 200px;
+	margin: 0px auto 0px auto;
+}
+
+.block12 {
+	max-width: 200px;
+	height: 200px;
+	border-radius: 50% 25% 35% 50% / 10% 60% 20% 80%;
+	background-color: #000;
+}
